@@ -1,0 +1,26 @@
+.logo {
+  background-image: url(../../assets/logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  order: 1;
+  justify-self: center;
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.footer > p > b {
+  line-height: 30px;
+}
